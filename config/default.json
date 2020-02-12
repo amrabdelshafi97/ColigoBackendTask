@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://amrayoub:1234@coligo-ng3dx.mongodb.net/test?retryWrites=true&w=majority",
+    "jwt_secret_key": "myJwT$ecretKey"
+}

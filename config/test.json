@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "abcd",
+    "mongoURI": "mongodb://localhost/db_test"
+}
