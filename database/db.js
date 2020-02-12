@@ -8,6 +8,7 @@ const connectDB = async() => {
         //connecting to db
         await mongo.connect(db, {
             useNewUrlParser: true,
+            useFindAndModify: false,
             useCreateIndex: true,
             useUnifiedTopology: true
         });

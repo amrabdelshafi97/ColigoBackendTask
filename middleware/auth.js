@@ -22,7 +22,6 @@ module.exports = async function(req, res, next) {
             next();
         else
             return res.status(403).json('not registered');
-        //next();
     } catch (err) {
         return res.status(400).json('token is not valid');
     }

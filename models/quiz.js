@@ -27,7 +27,7 @@ const QuizSchema = new MongoSchema({
             type: Date,
             default: Date.now
         },
-        asnwers: [String],
+        answers: [String],
         correctAnswer: [String]
     }]
 });
